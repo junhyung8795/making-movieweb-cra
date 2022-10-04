@@ -1,0 +1,48 @@
+.detailBody {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.backgroundPicture {
+    position:absolute;
+    top:0;
+    z-index:-1;
+    width:100vw;
+    height:120vh;
+}
+
+.movieImage {
+    width:300px;
+    height:350px;
+    border-radius: 20px;
+}
+
+.discription_full {
+    display: flex;
+    text-align: center;
+    color: white;
+    margin: 30px;
+    line-height: 20px;
+}
+
+.genreList {
+    display: flex;
+    text-align: center;
+    color:white;
+  }
+
+.genreListItem {
+   margin-right: 10px;
+   font-size: larger;
+}
+
+.genreListHeader {
+    font-size: larger;
+}
+
+.link{
+    font-size:30px;
+    color:red;
+}
